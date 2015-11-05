@@ -691,7 +691,7 @@ public class Build {
      * @hide
      */
     public static boolean isBuildConsistent() {
-        final String system = SystemProperties.get("ro.build.fingerprint");
+        /*final String system = SystemProperties.get("ro.build.fingerprint");
         final String vendor = SystemProperties.get("ro.vendor.build.fingerprint");
         final String bootimage = SystemProperties.get("ro.bootimage.build.fingerprint");
         final String requiredBootloader = SystemProperties.get("ro.build.expect.bootloader");
@@ -710,7 +710,7 @@ public class Build {
                         + " but vendor reported " + vendor);
                 return false;
             }
-        }
+        }*/
 
         /* TODO: Figure out issue with checks failing
         if (!TextUtils.isEmpty(bootimage)) {
