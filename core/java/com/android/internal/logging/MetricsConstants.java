@@ -263,6 +263,10 @@ public interface MetricsConstants {
     public static final int TUNER_BATTERY_PERCENTAGE = 237;
     public static final int FUELGAUGE_INACTIVE_APPS = 238;
 
+    // Coldfusion
+    public static final int COLDFUSION_SETTINGS = 239;
+    public static final int GESTURE_SETTINGS = 240;
+
     // These constants must match those in the analytic pipeline, do not edit.
     // Add temporary values to the top of MetricsLogger instead.
 
